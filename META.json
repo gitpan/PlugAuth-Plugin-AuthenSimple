@@ -1,0 +1,60 @@
+{
+   "abstract" : "AuthenSimple plugin for PlugAuth",
+   "author" : [
+      "Graham Ollis <plicease@cpan.org>"
+   ],
+   "dynamic_config" : 0,
+   "generated_by" : "Dist::Zilla version 4.300039, CPAN::Meta::Converter version 2.132661",
+   "license" : [
+      "perl_5"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "PlugAuth-Plugin-AuthenSimple",
+   "prereqs" : {
+      "configure" : {
+         "requires" : {
+            "ExtUtils::MakeMaker" : "6.30"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "Authen::Simple" : "0",
+            "PlugAuth::Role::Auth" : "0",
+            "PlugAuth::Role::Plugin" : "0",
+            "Role::Tiny" : "0",
+            "perl" : "5.006"
+         }
+      },
+      "test" : {
+         "recommends" : {
+            "YAML::XS" : "0"
+         },
+         "requires" : {
+            "File::HomeDir" : "0",
+            "File::HomeDir::Test" : "0",
+            "File::Spec" : "0",
+            "Params::Validate" : "0",
+            "PlugAuth" : "0",
+            "Test::More" : "0",
+            "YAML" : "0"
+         }
+      }
+   },
+   "release_status" : "stable",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/plicease/plugauth-plugin-authensimple/issues"
+      },
+      "homepage" : "http://perl.wdlabs.com/PlugAuth-Plugin-AuthenSimple/",
+      "repository" : {
+         "type" : "git",
+         "url" : "git://github.com/plicease/plugauth-plugin-authensimple.git",
+         "web" : "https://github.com/plicease/plugauth-plugin-authensimple"
+      }
+   },
+   "version" : "0.01"
+}
+
